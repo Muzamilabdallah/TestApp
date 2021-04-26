@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/news_nav_graph"
+    app:startDestination="@id/breakingNewsFragment"
+    tools:ignore="UnusedNavigation">
+
+    <fragment
+        android:id="@+id/breakingNewsFragment"
+        android:name="com.altkamul.testapp.ui.fragment.NewsFragment"
+        android:label="News">
+<!--        <action-->
+<!--            android:id="@+id/action_breakingNewsFragment_to_detailFragment"-->
+<!--            app:destination="@id/detailNewsFragment" />-->
+    </fragment>
+<!--    <fragment-->
+<!--        android:id="@+id/detailNewsFragment"-->
+<!--        android:name="com.altkamul.testapp.ui."-->
+<!--        android:label="DetailNewsFragment">-->
+<!--        <argument-->
+<!--            android:name="article"-->
+<!--            app:argType="om.altkamul.testapp.Article" />-->
+<!--    </fragment>-->
+</navigation>
